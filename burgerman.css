@@ -1,0 +1,99 @@
+#travel_expense_form
+{
+  width: 60%;
+  border-color: green;
+  text-align: center;
+  border-color: inherit;
+}
+
+#main_heading
+{
+  text-align: center;
+}
+
+
+
+
+#itinerary_info_table
+
+{
+
+width: 60%;
+
+border-color: green;
+
+}
+
+
+#submit_button
+
+{
+
+background-color: green;
+
+color: white;
+
+width: 9%;
+
+height: 30px;
+
+text-align: ;
+
+}
+
+#reset_button
+
+{
+
+background-color: green;
+
+color: white;
+
+width: 9%;
+
+height: 30px;
+
+text-align: center;
+
+}
+
+
+td:hover
+
+{
+
+border-color: red;
+
+}
+
+th:hover
+
+{
+
+border-color: red;
+
+}
+
+#submit_button:hover
+
+{
+
+background-color: blue;
+
+}
+
+#reset_button:hover
+
+{
+
+background-color: blue;
+
+}
+
+body
+
+{
+
+background-image: url(https://mycourses.siu.edu/content/enforced/490829-21616.202220/background.jpg?d2lSessionVal=3FAYuKuqsoGCLBEriaZxidAQ4&ou=490829);
+
+}

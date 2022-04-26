@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="burgerman.css"/>
+
+</head>
+
+<body>
+
+
+<h1 id="main_heading">Travel Expense Report</h1>
+
+<hr>
+
+<form name="travel_expense_form" action="#">
+
+
+<h1>Traveller Information</h1>
+
+<table border="1" id="traveller_info_table">
+
+<tr>
+
+<td class="td_info">Employee ID:</td>
+
+<td><input type="text" name="employee_id" class="textboxes_info"></td>
+
+<td class="td_info">Email:</td>
+
+<td><input type="email" name="email" class="textboxes_info"></td>
+
+</tr>
+
+<tr>
+
+<td class="td_info">Last Name:</td>
+
+<td><input type="text" name="last_name" class="textboxes_info"></td>
+
+<td class="td_info">First Name:</td>
+
+<td><input type="text" name="first_name" class="textboxes_info"></td>
+
+</tr>
+
+<tr>
+
+<td class="td_info">Address:</td>
+
+<td colspan="3"><input type="text" name="address" class="address_textbox"></td>
+
+</tr>
+
+<tr>
+
+<td class="td_info">City:</td>
+
+<td><input type="text" name="city" class="textboxes_info"></td>
+
+<td class="td_info">State:</td>
+
+<td><input type="text" name="state" class="textboxes_info"></td>
+
+</tr>
+
+<tr>
+
+<td class="td_info">Zip:</td>
+
+<td><input type="text" name="zip" class="textboxes_info"></td>
+
+<td class="td_info">Phone:</td>
+
+<td><input type="tel" name="phone" class="textboxes_info"></td>
+
+</tr>
+
+</table>
+
+<h1>Trip Information</h1>
+
+<table border="1" id="trip_info_table">
+
+<tr>
+
+<th colspan="2">Dates of Travel</th>
+
+<th colspan="2">Dates of Meeting</th>
+
+</tr>
+
+<tr>
+
+<td class="td_info1">From:</td>
+
+<td><input type="date" name="travel_from"></td>
+
+<td class="td_info1">From:</td>
+
+<td><input type="date" name="meeting_from"></td>
+
+</tr>
+
+<tr>
+
+<td class="td_info1">To:</td>
+
+<td><input type="date" name="travel_to"></td>
+
+<td class="td_info1">To:</td>
+
+<td><input type="date" name="meeting_to"></td>
+
+</tr>
+
+<tr>
+
+<td class="td_info1">Purpose:</td>
+
+<td colspan="3">
+
+<select>
+
+<option value="professional_meeting">Professional Meeting</option>
+
+<option value="personal_meeting">Personal Meeting</option>
+
+<option value="vacation">Vacation</option>
+
+</select>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="td_info1">Level:</td>
+
+<td colspan="3">
+
+<input type="radio" name="radio1" value="regional"> Regional
+
+<input type="radio" name="radio1" value="state"> State
+
+<input type="radio" name="radio1" value="national"> National
+
+<input type="radio" name="radio1" value="international"> International
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="td_info1">Description:</td>
+
+<td colspan="3">
+
+<textarea rows="3" id=description></textarea>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td colspan="2">Was a personal vechicle used?</td>
+
+<td colspan="2">
+
+<input type="radio" name="radio2" value="yes1">Yes
+
+<input type="radio" name="radio2" value="no1">No
+
+</td>
+
+</tr>
+
+<tr>
+
+<td colspan="2">Was a university vehicle used?</td>
+
+<td colspan="2">
+
+<input type="radio" name="radio2" value="yes2">Yes
+
+<input type="radio" name="radio2" value="no2">No
+
+</td>
+
+</tr>
+
+</table>
+
+
+<h1>Itinerary Information</h1>
+
+<table border="1" id="itinerary_info_table">
+
+<tr>
+
+<th>Date</th>
+
+<th>Departed From</th>
+
+<th>Arrived At</th>
+
+<th>Auto Milage</th>
+
+<th>Meals</th>
+
+</tr>
+
+<tr>
+
+<td><input type="date" name="date1"></td>
+
+<td><input type="text" name="departed_from1"></td>
+
+<td><input type="text" name="arrived_at1"></td>
+
+<td><input type="text" name="auto_milage1"></td>
+
+<td>
+
+<input type="checkbox" name="meals" value="breakfast1">Breakfast
+
+<input type="checkbox" name="meals" value="lunch1">Lunch
+
+<input type="checkbox" name="meals" value="dinner1">Dinner
+
+</td>
+
+</tr>
+
+<tr>
+
+<td><input type="date" name="date2"></td>
+
+<td><input type="text" name="departed_from2"></td>
+
+<td><input type="text" name="arrived_at2"></td>
+
+<td><input type="text" name="auto_milage2"></td>
+
+<td>
+
+<input type="checkbox" name="meals" value="breakfast2">Breakfast
+
+<input type="checkbox" name="meals" value="lunch2">Lunch
+
+<input type="checkbox" name="meals" value="dinner2">Dinner
+
+</td>
+
+</tr>
+
+<tr>
+
+<td><input type="date" name="date3"></td>
+
+<td><input type="text" name="departed_from3"></td>
+
+<td><input type="text" name="arrived_at3"></td>
+
+<td><input type="text" name="auto_milage3"></td>
+
+<td>
+
+<input type="checkbox" name="meals" value="breakfast3">Breakfast
+
+<input type="checkbox" name="meals" value="lunch3">Lunch
+
+<input type="checkbox" name="meals" value="dinner3">Dinner
+
+</td>
+
+</tr>
+
+</table>
+
+<hr>
+
+
+<input type="submit" name="submit" value="Send Report" id="submit_button">
+
+<input type="reset" name="reset" value="Clear Form" id="reset_button">
+
+</form>
+
+</body>
+
+</html>
